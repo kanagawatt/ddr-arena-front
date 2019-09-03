@@ -1,14 +1,23 @@
 <template lang="pug">
   div#app
-    div#nav
-      router-link(to="/")
-        span.linkText home
-      <router-link to="/">Homeeeee</router-link> |
-      <router-link to="/about">About</router-link>
-      <router-view/>
-      p kanagawa
+    div#header
+      <router-link to="/">Home</router-link>
+      nobr |
+      <router-link to="/about">About</router-link> |
+      LoginHeader
+      router-view/
 </template>
 
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+import LoginHeader from '@/components/LoginHeader.vue' // @ is an alias to /src
+@Component({
+  components: {
+    LoginHeader
+  }
+})
+export default class App extends Vue {}
+</script>
 <style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -17,14 +26,11 @@
   text-align: center;
   color: #2c3e50;
 }
-#nav {
-  padding: 30px;
+#header {
   a {
     font-weight: bold;
-    margin-right : 10px;
-  }
-  p {
-    color : red
+    margin : 20px;
   }
 }
+
 </style>

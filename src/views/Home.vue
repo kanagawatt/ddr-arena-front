@@ -4,10 +4,6 @@
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript Appppppppppppppp"/>
     <HelloWorld2 msg="Welcome to Your Vue.js + TypeScript Appppppppppppppp"/>
-
-    <router-link to="/">Homeeeee</router-link> |
-    <router-link to="/about">About</router-link>
-        <router-view/>
 </template>
 
 <script lang="ts">
