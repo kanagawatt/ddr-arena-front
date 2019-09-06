@@ -18,10 +18,10 @@ export default {
   },
   methods: {
     submit: function (test) {
-      var sessionId = Cookies.get(this.msg)
-      console.log(this.msg)
-      console.log(test)
-      return sessionId
+      console.log('teswwfes')
+      this.msg = 'tesfsf'
+      var puppeteerr = require('puppeteer')
+      console.log(puppeteerr)
     }
   }
 }

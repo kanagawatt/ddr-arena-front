@@ -9,15 +9,18 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "core-js": "^2.6.5",
     "eslint-plugin-pug": "^1.1.1",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
+    "puppeteer": "^1.19.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",
     "vue-router": "^3.0.3",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "ws": "^7.1.2"
   },
   "devDependencies": {
     "@types/chai": "^4.1.0",
@@ -37,7 +40,7 @@
     "js-cookie": "^2.2.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
-    "typescript": "^3.4.3",
+    "typescript": "3.5.0-rc",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

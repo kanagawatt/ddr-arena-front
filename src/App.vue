@@ -3,7 +3,9 @@
     div#header
       <router-link to="/">Home</router-link>
       nobr |
-      <router-link to="/about">About</router-link> |
+      <router-link to="/about">About</router-link>
+      nobr |
+      <router-link to="/battle">Battle</router-link> |
       LoginHeader
       router-view/
 </template>
