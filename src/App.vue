@@ -7,7 +7,9 @@
       nobr |
       <router-link to="/battle">Battle</router-link> |
       LoginHeader
+      a test
       router-view/
+
 </template>
 
 <script lang="ts">

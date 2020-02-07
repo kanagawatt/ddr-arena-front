@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h1>{{ test }}</h1>
   </div>
 </template>
 
@@ -10,6 +11,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
+  @Prop() private test!: string;
 }
 </script>
 

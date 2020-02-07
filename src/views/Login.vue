@@ -9,6 +9,7 @@
 
 <script>
 import Cookies from 'js-cookie'
+import login from './login'
 export default {
   name: 'LoginHeader',
   data () {
@@ -19,9 +20,9 @@ export default {
   methods: {
     submit: function (test) {
       console.log('teswwfes')
+      console.log(login)
+      login()
       this.msg = 'tesfsf'
-      var puppeteerr = require('puppeteer')
-      console.log(puppeteerr)
     }
   }
 }

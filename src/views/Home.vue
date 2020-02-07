@@ -2,18 +2,16 @@
 <template lang="pug">
   div#home
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript Appppppppppppppp"/>
-    <HelloWorld2 msg="Welcome to Your Vue.js + TypeScript Appppppppppppppp"/>
+    <HelloWorld msg="Welcome to Your Vue.js + TypeScript Appppppppppppppp" test="testtest"/>
+
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import HelloWorld from '@/components/HelloWorld2.vue' // @ is an alias to /src
-import HelloWorld2 from '@/components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
 @Component({
   components: {
     HelloWorld,
-    HelloWorld2
   }
 })
 export default class Home extends Vue {}

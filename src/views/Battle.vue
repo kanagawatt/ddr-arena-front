@@ -18,12 +18,7 @@ export default {
   },
   methods: {
     getKonami: function () {
-      axios.get('http://localhost:8888', config)
-        .then(response => {
-          this.msg = response.data
-          console.log(this.msg.data)
-          window.location = 'https://p.eagate.573.jp/game/ddr/ddra20/p/login.html'
-        })
+      console.log("test")
     }
   }
 }
